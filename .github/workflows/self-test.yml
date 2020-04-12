@@ -15,4 +15,4 @@ jobs:
        uses: ./ # Uses the action in the root directory
        id: test
        with:
-          solution: 'TestSolution/TestSolution.sln'
+          solution: './TestSolution/TestSolution.sln'
