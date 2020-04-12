@@ -1,7 +1,5 @@
 FROM mcr.microsoft.com/dotnet/core/runtime:3.1
 
-RUN apk --update-cache add curl
-
 RUN curl -sf -o resharper-cli.tar.gz -L "https://download-cf.jetbrains.com/resharper/ReSharperUltimate.2019.3.4/JetBrains.ReSharper.CommandLineTools.Unix.2019.3.4.tar.gz" \
     && mkdir -p /resharper \
     && tar -xf resharper-cli.tar.gz -C /resharper \
