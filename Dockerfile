@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM mcr.microsoft.com/dotnet/core/runtime:3.1
 
 RUN apk --update-cache add curl
 
