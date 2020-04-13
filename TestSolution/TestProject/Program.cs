@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Diagnostics;
 
 namespace TestProject
 {
-    internal class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello Test Solution!");
+            Console.WriteLine("Hello World!");
         }
     }
 }

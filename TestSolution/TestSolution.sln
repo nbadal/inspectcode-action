@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{DB0E2C10-198C-4176-9FD3-C8D218B0F19A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{40F7E2FF-EC26-48CA-A4DB-F6F8A3AABEB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB0E2C10-198C-4176-9FD3-C8D218B0F19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB0E2C10-198C-4176-9FD3-C8D218B0F19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB0E2C10-198C-4176-9FD3-C8D218B0F19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB0E2C10-198C-4176-9FD3-C8D218B0F19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F7E2FF-EC26-48CA-A4DB-F6F8A3AABEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F7E2FF-EC26-48CA-A4DB-F6F8A3AABEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F7E2FF-EC26-48CA-A4DB-F6F8A3AABEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F7E2FF-EC26-48CA-A4DB-F6F8A3AABEB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
