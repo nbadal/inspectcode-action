@@ -11,8 +11,6 @@ jobs:
    steps:
      - name: Checkout
        uses: actions/checkout@v2
-     - name: Debug
-       run: ls -al
      - name: Test
        uses: ./ # Uses the action in the root directory
        id: test
