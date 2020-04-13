@@ -1,6 +1,9 @@
 name: 'Resharper InspectCode'
 author: 'Nick Badal'
 description: 'An action that runs the InspectCode CLI utility from JetBrains'
+branding:
+    icon: 'bar-chart'
+    color: 'blue'
 inputs:
     solution:
         description: 'Path to your solution file, ex: MyProject.sln'
