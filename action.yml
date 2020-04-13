@@ -16,4 +16,4 @@ runs:
     image: 'Dockerfile'
     args:
         - ${{ inputs.solution }}
-        - "-o=output.xml"
+        - "-o=inspection.xml"
