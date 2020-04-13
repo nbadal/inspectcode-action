@@ -1,19 +1,13 @@
-name: 'InspectCode'
+name: 'Resharper InspectCode'
 author: 'Nick Badal'
-description: 'An action that runs the InspectCode utility from JetBrains'
+description: 'An action that runs the InspectCode CLI utility from JetBrains'
 inputs:
     solution:
-        description: 'Filename of your solution, ex: MyProject.sln'
+        description: 'Path to your solution file, ex: MyProject.sln'
         required: true
-    include:
-        description: 'Relative path(s) or wildcards that define the files to include during the inspection'
-        required: false
-    exclude:
-        description: 'Relative path(s) or wildcards that define the files to exclude during the inspection. Include takes higher priority'
-        required: false
 runs:
     using: 'docker'
     image: 'Dockerfile'
     args:
         - ${{ inputs.solution }}
-        - "-o=inspection.xml"
+        - '-o=report.xml'
