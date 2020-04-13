@@ -6,7 +6,7 @@ on:
 
 jobs:
   self-test:
-   runs-on: ubuntu-latest
+   runs-on: windows-latest
    name: Self Test
    steps:
      - name: Checkout
