@@ -16,8 +16,8 @@ jobs:
        id: test
        with:
           solution: './TestSolution/TestSolution.sln'
-    - name: Upload
-      uses: actions/upload-artifact@v1
-      with:
-        name: inspection.xml
-        path: inspection.xml
+     - name: Upload
+       uses: actions/upload-artifact@v1
+       with:
+         name: inspection.xml
+         path: inspection.xml
